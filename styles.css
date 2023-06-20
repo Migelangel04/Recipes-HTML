@@ -1,8 +1,53 @@
+
 *{
     background-color: black;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 36px;
 }
 
 h1{
-    color: darkred;
+    color: red;
+    font-size: 64px;
+    font-weight: 800px;
 }
+
+.introParagraphIndex{
+    text-indent: 25px;
+}
+
+h1, 
+.introParagraphIndex{
+    text-align: center;
+}
+
+h3
+{
+    font-size: 36px;
+}
+
+ul li,
+ol li{
+    font-size: 28px;
+}
+
+.descriptionAndImage {
+    width: 100%;
+    overflow: hidden;
+   }
+   
+img {
+    float: left;
+    margin-right: 1px;
+    width: 800px;
+    height:auto;
+}
+   
+.description {
+    text-align: right;
+    font-size: 48px;
+}
+
