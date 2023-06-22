@@ -1,53 +1,55 @@
 
 *{
-    background-color: black;
-    color: white;
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-color: whitesmoke;
 }
 
 p{
-    font-size: 36px;
+    font-size: 40px;
+}
+
+li{
+    font-size: 26px;
 }
 
 h1{
-    color: red;
+    color: brown;
     font-size: 64px;
     font-weight: 800px;
+    text-align: center;
 }
 
 .introParagraphIndex{
     text-indent: 25px;
-}
-
-h1, 
-.introParagraphIndex{
     text-align: center;
 }
 
-h3
-{
-    font-size: 36px;
+.container img{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    margin: 10px 10px;
 }
 
-ul li,
-ol li{
-    font-size: 28px;
+
+
+
+.container.containerRecipe{
+    width: 1600px; height: auto;
+    margin: 0px auto;
 }
 
-.descriptionAndImage {
-    width: 100%;
-    overflow: hidden;
-   }
-   
-img {
-    float: left;
-    margin-right: 1px;
-    width: 800px;
-    height:auto;
+.imageAndDescription img{
+    width: 500px;
+    display: inline-block;
 }
-   
-.description {
-    text-align: right;
-    font-size: 48px;
+
+.description{
+    width: 1000px;
+    height: 620px;
+    display: inline-block;
+    padding-left: 50px;
+    text-align: left;
 }
 
