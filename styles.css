@@ -1,55 +1,129 @@
 
 *{
-    font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
-    background-color: whitesmoke;
+    line-height: 1.5;
+    /*border: 1px solid red;*/
 }
 
-p{
-    font-size: 40px;
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-li{
-    font-size: 26px;
+/* Home Page Styles ----------------------*/
+
+.box
+{
+    width: 1800px;
+    height: auto;
+    margin: 0 auto;
 }
 
-h1{
-    color: brown;
-    font-size: 64px;
-    font-weight: 800px;
+#title
+{
+    text-align: center;
+    font-size: 48px;
+}
+
+.box p
+{
+    font-size: 28px;
     text-align: center;
 }
 
-.introParagraphIndex{
-    text-indent: 25px;
+.homeImages
+{
+    margin: 0 auto;
+}
+
+.homeImages a img
+{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    vertical-align: top;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+/*-----------------------------------------*/
+
+.recipe-info,
+.recipe-extra-info
+{
+    width: 1800px;
+    height: 630px;
+}
+
+/*Recipe Info -----------------------------*/
+.recipe-info img
+{
+    display: inline-block;
+    width: 430px;
+    height: 430px;
+}
+
+.recipe-info .recipe-content
+{
+    display: inline-block;
+    width: 1150px;
+    height: auto;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.recipe-info h1 
+{
     text-align: center;
+    font-size: 48px;
+    margin-top: 0;
 }
 
-.container img{
-    width: 600px;
-    height: 600px;
+.recipe-content p,
+.recipe-content ul li{
+    font-size: 24px;
+}
+
+/*-----------------------------------------*/
+
+/* Extra Info Section*/
+
+.recipe-extra-info .ingridents,
+.recipe-extra-info .directions
+{
     display: inline-block;
-    margin: 10px 10px;
+    width: 790px; 
+    height: auto;
+    vertical-align: top;
+}
+
+.recipe-extra-info .ingridents h3,
+.recipe-extra-info .directions h3
+{
+    font-size: 28px;
+}
+
+.ingridents ul li
+{
+    font-size: 20px;
+}
+
+.directions ol li,
+.directions p
+{
+    font-size: 16.5px;
 }
 
 
 
 
-.container.containerRecipe{
-    width: 1600px; height: auto;
-    margin: 0px auto;
-}
 
-.imageAndDescription img{
-    width: 500px;
-    display: inline-block;
-}
 
-.description{
-    width: 1000px;
-    height: 620px;
-    display: inline-block;
-    padding-left: 50px;
-    text-align: left;
-}
+
+
+
+
+
+
+
 
